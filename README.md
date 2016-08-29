@@ -19,3 +19,7 @@ home directory:
 ```
 for i in $(ls --ignore='*.*'); do ln -s ~/dotfiles/$i ~/.$i; done
 ```
+## Notes
+
+To disable the trackpad the script is added to start up from KDE's settings
+page. 
