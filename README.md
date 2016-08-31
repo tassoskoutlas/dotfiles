@@ -17,7 +17,7 @@ cd dotfiles
 For every file that does not have an extensio create a symlink on the user's
 home directory:
 ```
-for i in $(ls --ignore='*.*'); do ln -s ~/dotfiles/$i ~/.$i; done
+for i in $(ls --ignore=.* --ignore='*.*'); do ln -s ~/dotfiles/$i ~/.$i; done
 ```
 ## Notes
 
